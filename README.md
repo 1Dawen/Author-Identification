@@ -115,8 +115,6 @@ spooky-author-identification/
 ## Reproducibility and limitations
 
 - **Dataset:** The public repository does not redistribute competition texts, labels for the competition test set, or third-party embeddings. Users must obtain the official data themselves.
-- **Preprocessing:** The original notebooks fitted some text preprocessing on material outside the training fold and did not independently validate the later stacked model. Those experimental practices have been replaced or omitted.
-- **Architecture:** The LSTM has been reimplemented in PyTorch rather than reproducing the original Keras checkpoint, model schedule or saved metrics. Original saved results **cannot be assumed to carry over**.
 - **Evaluation:** All models use the same single held-out split and standard metrics, but choosing the best model on that holdout can make its score optimistic. The competition leaderboard would provide a separate measure.
 
-This is a cleaned reimplementation of an **academic collaborative project**, based on available experimental notebooks. It is not a claim that the original notebooks or experiments were authored or conducted by one person. Historical outputs and methodological differences are detailed in the [technical notes](docs/technical_notes.md).
+This is a cleaned reimplementation based on available experimental notebooks. Historical outputs and methodological differences are detailed in the [technical notes](docs/technical_notes.md).
