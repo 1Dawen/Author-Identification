@@ -2,7 +2,7 @@
 
 ## Source and reconstruction
 
-The original project used two separate notebooks, `SAI_LSTM.ipynb` and `SAI_XGBOOST.ipynb`, from an academic comparison of methods for the Kaggle **Spooky Author Identification** challenge. It was a collaborative academic project. This repository is a **cleaned, standalone implementation** informed by those notebooks, not a byte-for-byte reproduction of the original runs. The original notebooks, reports and other contributors' files are deliberately not republished.
+The original project used two separate notebooks, `SAI_LSTM.ipynb` and `SAI_XGBOOST.ipynb`, from a comparison of methods for the Kaggle **Spooky Author Identification** challenge. This repository is a **cleaned, standalone implementation** informed by those notebooks, not a byte-for-byte reproduction of the original runs.
 
 Original notebook outputs recorded **0.835 holdout accuracy** for an LSTM and approximately **0.35352 validation multiclass log loss** for the first XGBoost model. **Neither result has been independently reproduced with this implementation.** They are not directly comparable because they are different metrics, and the original XGBoost preprocessing is not an unbiased held-out evaluation.
 
