@@ -1,4 +1,4 @@
-# Spooky Author Identification
+# Author Identification
 
 **Natural Language Processing | TF-IDF | XGBoost | PyTorch LSTM | Model Evaluation**
 
