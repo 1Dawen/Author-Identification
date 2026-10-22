@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Original Kaggle data, external embeddings, trained models and predictions
+data/raw/*
+!data/raw/.gitkeep
+outputs/
+models/
+*.joblib
+*.pt
+*.pth
+*.h5
+*.keras
+*.cbm
+*.glove
+*glove*.txt
